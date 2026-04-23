@@ -1,0 +1,40 @@
+2024-01-15 08:01:02 INFO System startup complete on server-01
+2024-01-15 08:05:14 INFO User login successful - user_id: 1001
+2024-01-15 08:12:33 INFO Backup process started on database server
+2024-01-15 08:23:11 INFO User login successful - user_id: 1023
+2024-01-15 08:34:45 ERROR Database connection timeout on server-02
+2024-01-15 08:35:01 ERROR Retry attempt 1 failed - database unreachable
+2024-01-15 08:35:18 ERROR Retry attempt 2 failed - database unreachable
+2024-01-15 08:41:22 FAILED LOGIN attempt from IP 192.168.1.45 - user: admin
+2024-01-15 08:41:35 FAILED LOGIN attempt from IP 192.168.1.45 - user: admin
+2024-01-15 08:41:50 FAILED LOGIN attempt from IP 192.168.1.45 - user: root
+2024-01-15 08:42:10 CRITICAL Possible brute force attack detected from IP 192.168.1.45
+2024-01-15 08:45:32 INFO Network traffic normal on deployment server
+2024-01-15 09:01:44 INFO Scheduled backup completed successfully
+2024-01-15 09:12:05 ERROR Disk read error on server-03 partition /dev/sdb1
+2024-01-15 09:18:30 INFO User login successful - user_id: 1045
+2024-01-15 09:22:17 CRITICAL Disk usage at 95% on server-01 - immediate action required
+2024-01-15 09:34:21 ERROR API response timeout - service: payment-gateway
+2024-01-15 09:41:05 FAILED LOGIN attempt from IP 10.0.0.88 - user: root
+2024-01-15 09:45:00 INFO System health check passed on server-02
+2024-01-15 09:52:33 ERROR Memory usage exceeded threshold on server-01 - 89% used
+2024-01-15 10:01:11 INFO Software deployment started - version 3.2.1
+2024-01-15 10:05:44 CRITICAL Network interface down on server-04 - code deployment halted
+2024-01-15 10:12:22 ERROR Code deployment failed - server-04 unreachable
+2024-01-15 10:18:09 FAILED LOGIN attempt from IP 10.0.0.88 - user: admin
+2024-01-15 10:23:45 INFO Database backup verified - all systems normal
+2024-01-15 10:31:17 ERROR SSL certificate expired on api.internal.server
+2024-01-15 10:45:00 INFO Scheduled system scan complete - no threats found
+2024-01-15 10:52:38 CRITICAL Unauthorized access attempt on admin deployment panel
+2024-01-15 11:01:22 ERROR Architecture mismatch detected during code deployment
+2024-01-15 11:15:44 INFO Network restored on server-04
+2024-01-15 11:22:10 INFO Software deployment completed successfully - version 3.2.1
+2024-01-15 11:34:55 ERROR Database replication lag detected - server-02 behind by 45 seconds
+2024-01-15 11:45:00 INFO System performance normal across all servers
+2024-01-15 11:52:17 FAILED LOGIN attempt from IP 172.16.0.12 - user: root
+2024-01-15 12:01:33 CRITICAL System memory critically low on server-03 - 97% used
+2024-01-15 12:12:44 ERROR API server not responding - code: 503
+2024-01-15 12:23:05 INFO Database connection restored on server-02
+2024-01-15 12:34:18 ERROR Deployment rollback initiated - version 3.2.1 unstable
+2024-01-15 12:45:00 INFO System backup started on all servers
+2024-01-15 12:52:33 CRITICAL Security breach attempt detected - admin panel targeted

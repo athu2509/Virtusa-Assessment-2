@@ -1,0 +1,49 @@
+=======================================================
+         OPSBOT — SECURITY ALERT REPORT
+=======================================================
+Source File   : server.log
+Generated     : 2026-04-23 15:49:04
+Total Lines   : 40
+Threat Lines  : 24
+Noise Removed : 16 INFO lines
+
+Threat Summary
+------------------------------
+  🔴 CRITICAL        : 6
+  🟠 ERROR           : 12
+  🟡 FAILED LOGIN    : 6
+
+Suspicious IPs
+------------------------------
+  192.168.1.45       — 4 attempt(s)
+  10.0.0.88          — 2 attempt(s)
+  172.16.0.12        — 1 attempt(s)
+
+Threat Log
+------------------------------
+  2024-01-15 08:34:45 ERROR Database connection timeout on server-02
+  2024-01-15 08:35:01 ERROR Retry attempt 1 failed - database unreachable
+  2024-01-15 08:35:18 ERROR Retry attempt 2 failed - database unreachable
+  2024-01-15 08:41:22 FAILED LOGIN attempt from IP 192.168.1.45 - user: admin
+  2024-01-15 08:41:35 FAILED LOGIN attempt from IP 192.168.1.45 - user: admin
+  2024-01-15 08:41:50 FAILED LOGIN attempt from IP 192.168.1.45 - user: root
+  2024-01-15 08:42:10 CRITICAL Possible brute force attack detected from IP 192.168.1.45
+  2024-01-15 09:12:05 ERROR Disk read error on server-03 partition /dev/sdb1
+  2024-01-15 09:22:17 CRITICAL Disk usage at 95% on server-01 - immediate action required
+  2024-01-15 09:34:21 ERROR API response timeout - service: payment-gateway
+  2024-01-15 09:41:05 FAILED LOGIN attempt from IP 10.0.0.88 - user: root
+  2024-01-15 09:52:33 ERROR Memory usage exceeded threshold on server-01 - 89% used
+  2024-01-15 10:05:44 CRITICAL Network interface down on server-04 - code deployment halted
+  2024-01-15 10:12:22 ERROR Code deployment failed - server-04 unreachable
+  2024-01-15 10:18:09 FAILED LOGIN attempt from IP 10.0.0.88 - user: admin
+  2024-01-15 10:31:17 ERROR SSL certificate expired on api.internal.server
+  2024-01-15 10:52:38 CRITICAL Unauthorized access attempt on admin deployment panel
+  2024-01-15 11:01:22 ERROR Architecture mismatch detected during code deployment
+  2024-01-15 11:34:55 ERROR Database replication lag detected - server-02 behind by 45 seconds
+  2024-01-15 11:52:17 FAILED LOGIN attempt from IP 172.16.0.12 - user: root
+  2024-01-15 12:01:33 CRITICAL System memory critically low on server-03 - 97% used
+  2024-01-15 12:12:44 ERROR API server not responding - code: 503
+  2024-01-15 12:34:18 ERROR Deployment rollback initiated - version 3.2.1 unstable
+  2024-01-15 12:52:33 CRITICAL Security breach attempt detected - admin panel targeted
+
+=======================================================

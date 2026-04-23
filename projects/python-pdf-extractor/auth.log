@@ -1,0 +1,20 @@
+2024-01-15 06:12:01 INFO sshd started on port 22
+2024-01-15 06:15:33 INFO User session opened for user deploy
+2024-01-15 06:23:44 FAILED LOGIN ssh attempt for user root from 45.33.32.156
+2024-01-15 06:23:51 FAILED LOGIN ssh attempt for user root from 45.33.32.156
+2024-01-15 06:24:02 FAILED LOGIN ssh attempt for user admin from 45.33.32.156
+2024-01-15 06:24:15 CRITICAL Maximum login attempts exceeded from 45.33.32.156 — account locked
+2024-01-15 06:31:10 INFO User deploy logged out
+2024-01-15 07:02:55 INFO sshd accepted connection from 192.168.0.10
+2024-01-15 07:14:22 FAILED LOGIN invalid password for user ubuntu from 198.51.100.23
+2024-01-15 07:14:35 FAILED LOGIN invalid password for user ubuntu from 198.51.100.23
+2024-01-15 07:14:50 ERROR PAM authentication failure for user ubuntu
+2024-01-15 07:15:03 CRITICAL Repeated auth failures detected — possible credential stuffing from 198.51.100.23
+2024-01-15 07:22:18 INFO User jenkins logged in successfully
+2024-01-15 07:45:00 INFO Scheduled password rotation completed
+2024-01-15 08:01:11 ERROR sudo access denied for user guest — not in sudoers
+2024-01-15 08:12:44 INFO User jenkins session closed
+2024-01-15 08:23:05 FAILED LOGIN ssh attempt for user postgres from 203.0.113.77
+2024-01-15 08:31:19 CRITICAL Unauthorized sudo escalation attempt by user guest
+2024-01-15 08:45:00 INFO System audit log rotated
+2024-01-15 09:00:01 INFO Daily auth report generated
