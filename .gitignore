@@ -1,0 +1,6 @@
+.DS_Store
+.vscode/
+**/.DS_Store
+security_alert_*.txt
+report_*.txt
+*.class
